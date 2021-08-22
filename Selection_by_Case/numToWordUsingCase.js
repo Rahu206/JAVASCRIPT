@@ -38,6 +38,6 @@ function numberToWords(number){
 //take input
 const ps = require("prompt-sync")
 const prompt = ps();
-const number = prompt('Enter the number');
+const number = prompt('Enter the number: ');
 
 numberToWords(number);
